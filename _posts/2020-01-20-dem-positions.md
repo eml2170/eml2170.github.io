@@ -7,7 +7,9 @@ title: Democratic Candidates' Political Positions
 	
 Wikipedia has <a href="https://en.wikipedia.org/wiki/Political_positions_of_the_2020_Democratic_Party_presidential_primary_candidates">an overly informative page</a> on <i>all 29</i> Democratic candidates' political positions. To make it easier to read, I filtered it down to the frontrunners. I did this by grabbing the source code and writing some Python (and ad hoc copy pasta) to extract the table elements and strip out unnecessary styling, attributes and whatnot from the source code. There's probably a better way. <br><br>
 
-You can see that overall the candidates agree on most issues, but with differences in health care, economic issues, foreign policy and defense. You can also see a few cases where a single candidate takes the opposite position (Biden's are interesting).
+You can see that overall the candidates agree on most issues, but with differences in health care, economic issues, foreign policy and defense. You can also see a few cases where a single candidate takes the opposite position (Biden's are interesting).<br><br>
+
+<i>Note: The tables scroll horizontally. I don't know how to make the scroll bars show up on mobile.</i>
 
 <h2>Education</h2>
 <table><tr><th>Candidate

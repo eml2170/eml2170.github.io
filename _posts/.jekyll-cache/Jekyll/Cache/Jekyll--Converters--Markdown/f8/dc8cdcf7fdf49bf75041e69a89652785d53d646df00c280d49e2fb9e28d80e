@@ -1,0 +1,22 @@
+I"�<p>Hi there, this is my <strong>first</strong> blog post! Not sure if this will actually turn into something, but this is <em>pretty neat</em>.</p>
+
+<h3 id="design">Design</h3>
+
+<p>I completely copied this website from</p>
+<ul>
+  <li><a href="http://lanyon.getpoole.com">Lanyon</a>, a theme built on top of</li>
+  <li><a href="http://getpoole.com">Poole</a>, an instance of a</li>
+  <li><a href="https://jekyllrb.com">Jekyll</a> site, a <sup>simple</sup> markdown-driven static site generator.</li>
+</ul>
+
+<p>And you probably noticed this is running on</p>
+<ul>
+  <li><a href="https://pages.github.com">GitHub Pages</a>, which seems to host Jekyll sites particularly well because it is powered by Jekyll behind the scenes.</li>
+</ul>
+
+<p>From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
+
+<blockquote>
+  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
+</blockquote>
+:ET

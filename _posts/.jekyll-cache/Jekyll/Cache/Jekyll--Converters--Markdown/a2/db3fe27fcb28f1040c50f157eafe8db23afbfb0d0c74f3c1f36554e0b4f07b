@@ -1,0 +1,26 @@
+I"F<p>I’ve added a comment section underneath content, using a third party service called <a href="https://just-comments.com">JustComments</a>. This allows readers to leave a comment without having to sign into anything (although you can if you want), and best of all - no ads! Comments are enabled/visible from the post page and not from the home page (click on the post title to get to the post page).</p>
+
+<p>The setup was actually pretty easy, as there was good <a href="https://60devs.com/adding-comments-to-your-jekyll-blog.html">documentation</a> on how to do this specifically for a Jekyll blog. The harder part was figuring out the best tool to use. I was looking for something that was free, lightweight, spam-preventative, and ad-free, and JustComments ticks off all but the first. Some alternatives I had considered that tick off fewer:</p>
+
+<h4 id="disqus">Disqus</h4>
+<p>Although this seems to be widely used, it’s much more expensive to disable ads, which look click-baity, can appear both in-feed and as banners. Other bloggers have noted that it adds significant <a href="https://victorzhou.com/blog/replacing-disqus/">page bloat</a> in terms of network requests, has an over-sensitive or faulty <a href="https://tiger-mint.com/2018/04/12/why-im-saying-goodbye-to-disqus/">spam filterer</a> (customer support was not helpful either), and <a href="https://replyable.com/2017/03/disqus-is-your-data-worth-trading-for-convenience/">tracks and collects commenters’ data</a> to build high-value user profiles.</p>
+
+<h4 id="staticman">Staticman</h4>
+<p>This was an appealing free, lightweight, and ad-free option since it handles comments by reformatting them as static content and pushing it to the GitHub repo (spam can be moderated optionally by enabling pull requests). But it seems like it’s been much more difficult to use since December of last year when it started hitting <a href="https://github.com/eduardoboucas/staticman/issues/243">GitHub API quotas</a>. The documentation on current best practices was inconsistent, and confusing to piece together.</p>
+
+<h4 id="facebook-comments">Facebook comments</h4>
+<p>This checks off like none of the things I was looking for, so didn’t actually consider this. Instead, enjoy (from earlier this week) AOC grill Mark Zuckerberg on how Facebook is handling its fake news problem. <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xT9BRUoXhh8" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="next-steps">Next steps</h3>
+<p>I’m currently on a free trial of JustComments, and will decide later if I want to keep using it depending on how much usage it actually gets. The next thing I want to add to my blog is RSS support so that people can keep up-to-date with my site. Although if you’re seeing this, the goal is to keep up this weekly Sunday routine. For next week, I plan on digging into some data - maybe a look at RottenTomatoes’ Tomatometer if I can find a good dataset. Scraping is hard!</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>By the way, he doesn’t actually describe Facebook’s fact-checking system accurately. Fact checkers must be IFCN-certified, but Facebook ultimately sets its standard and selectively includes a subset of these. The right-wing Daily Caller is indeed one of Facebook’s six (out of 62 IFCN-certified) fact checkers. Read <a href="https://www.vox.com/2019/5/2/18522758/facebook-fact-checking-partnership-daily-caller">here</a> for more details. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
