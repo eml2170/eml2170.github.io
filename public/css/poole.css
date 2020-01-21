@@ -430,3 +430,9 @@ a.pagination-item:hover {
   }
 }
 
+pre.highlight {
+    word-wrap: normal;
+    overflow-x: auto;
+    white-space: pre;
+}
+
