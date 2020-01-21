@@ -240,6 +240,9 @@ table {
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 td,
 th {
@@ -429,10 +432,3 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
-
-pre.highlight {
-    word-wrap: normal;
-    overflow-x: auto;
-    white-space: pre;
-}
-
