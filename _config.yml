@@ -1,25 +1,15 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 
-gems: [jekyll-paginate]
-plugins: [jekyll-paginate]
-
-# Setup
-title:               Edward M. Liu
-tagline:             'A blog or something'
-description:         'Cool sidebar'
-url:                 https://eml2170.github.io
-baseurl:             ''
-paginate:            5
-paginate_path: "page:num"
+# Site identity
+title:       Edward M. Liu
+tagline:     'Staff Data Scientist · ML Engineer'
+description: 'Personal site of Edward M. Liu — Staff Data Scientist at Verily Life Sciences, focused on generative AI, NLP, and clinical machine learning.'
+url:         https://eml2170.github.io
+baseurl:     ''
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:  Edward M. Liu
+  email: edwardmarkliu@gmail.com
 
-# Custom vars
-version:             1.0.0
+version: 2.0.0
