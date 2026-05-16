@@ -3,36 +3,116 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+<section class="hero">
+  <img class="hero-photo" src="{{ site.baseurl }}/images/Edward-31.jpg" alt="Edward M. Liu" width="96" height="96">
+  <div class="hero-text">
+    <h1 class="hero-name">Edward M. Liu</h1>
+    <p class="hero-title">Data Scientist &middot; ML Engineer</p>
+    <p class="hero-location">San Francisco Bay Area</p>
   </div>
-  {% endfor %}
-</div>
+</section>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<section class="section">
+  <p class="section-label">// about</p>
+  <div class="bio">
+    <p>
+      I build machine learning systems that work in production — from early-stage
+      experimentation to scalable deployment. Currently a Staff Data Scientist at
+      <a href="https://verily.com">Verily Health</a>, an Alphabet company, where I work on
+      clinical AI and multimodal EHR modeling.
+    </p>
+    <p>
+      My focus is on LLMs, agentic systems, and deep learning applied to healthcare.
+      I care about building things that are rigorous, interpretable, and actually useful.
+    </p>
+  </div>
+</section>
 
+<section class="section">
+  <p class="section-label">// experience</p>
+  <ul class="timeline">
+    <li class="timeline-item">
+      <span class="timeline-period">2025 – present</span>
+      <div class="timeline-body">
+        <p class="timeline-role">Staff Data Scientist</p>
+        <p class="timeline-org">Verily Life Sciences</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-period">2023 – 2025</span>
+      <div class="timeline-body">
+        <p class="timeline-role">Staff ML Engineer</p>
+        <p class="timeline-org">Paradigm Health</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-period">2019 – 2023</span>
+      <div class="timeline-body">
+        <p class="timeline-role">Senior Data Scientist</p>
+        <p class="timeline-org">Flatiron Health</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-period">2016 – 2018</span>
+      <div class="timeline-body">
+        <p class="timeline-role">Data Scientist</p>
+        <p class="timeline-org">TripleLift</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section class="section">
+  <p class="section-label">// education</p>
+  <ul class="timeline">
+    <li class="timeline-item">
+      <span class="timeline-period">2015 – 2016</span>
+      <div class="timeline-body">
+        <p class="timeline-role">M.S. Computer Science <span style="font-weight:400;color:var(--color-muted)">(Machine Learning)</span></p>
+        <p class="timeline-org">Columbia University</p>
+      </div>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-period">2010 – 2014</span>
+      <div class="timeline-body">
+        <p class="timeline-role">B.S. Computer Science</p>
+        <p class="timeline-org">Columbia University</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section class="section">
+  <p class="section-label">// publications</p>
+  <ul class="pub-list">
+    <li>
+      Amar, J., <strong>Liu, E.</strong>, et al. &ldquo;Integrating Genomics into Multimodal EHR Foundation Models.&rdquo;
+      <span class="pub-venue">arXiv:2510.23639</span>, 2025.
+    </li>
+    <li>
+      Lakhanpal, S., et al. &ldquo;An Automated EHR-Based Tool to Facilitate Patient Identification for Biomarker-Driven Trials.&rdquo;
+      <span class="pub-venue">Journal of Clinical Oncology</span>, 2021.
+    </li>
+    <li>
+      Co-inventor on three healthcare machine learning patents — trial matching, genomic extraction, and response-to-treatment modeling.
+    </li>
+  </ul>
+</section>
+
+<section class="section">
+  <p class="section-label">// contact</p>
+  <ul class="links">
+    <li class="link-item">
+      <span class="link-label">email</span>
+      <a href="mailto:edwardmarkliu@gmail.com">edwardmarkliu@gmail.com</a>
+    </li>
+    <li class="link-item">
+      <span class="link-label">linkedin</span>
+      <a href="https://www.linkedin.com/in/edwardmliu/" target="_blank" rel="noopener">linkedin.com/in/edwardmliu</a>
+    </li>
+    <li class="link-item">
+      <span class="link-label">github</span>
+      <a href="https://github.com/eml2170" target="_blank" rel="noopener">github.com/eml2170</a>
+    </li>
+  </ul>
+</section>
